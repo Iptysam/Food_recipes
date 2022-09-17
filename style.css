@@ -187,10 +187,6 @@ header .header {
   justify-items: center;
 }
 
-.recipe-block:hover {
-  outline: 2px solid #d3d3d3;
-}
-
 .recipe-block {
   display: flex;
   align-items: center;
@@ -199,6 +195,10 @@ header .header {
   background-color: rgb(128 128 128 / 20%);
   cursor: pointer;
   transition: outline 0.15s ease-in-out;
+}
+
+.recipe-block:hover {
+  outline: 2px solid #d3d3d3;
 }
 
 .category {
