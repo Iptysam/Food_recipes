@@ -16,6 +16,7 @@ navlinks.forEach((link) => {
 
 const featureCard = [{
   title: 'Rasmalai',
+	bgimg: 'images/abstract-pixel-seamless-pattern-of-gray-vector-10316938.jpg',
   picimg: 'images/rasmalai.webp',
   sdescrip: 'indian sweet dish',
   lineimg: 'images/minus.png',
@@ -25,6 +26,7 @@ const featureCard = [{
 },
 {
   title: 'Biryani',
+	bgimg: 'images/abstract-pixel-seamless-pattern-of-gray-vector-10316938.jpg',
   picimg: 'images/biryani.jpg',
   sdescrip: 'famous indian main dish',
   lineimg: 'images/minus.png',
@@ -34,6 +36,7 @@ const featureCard = [{
 },
 {
   title: 'Rasmalai',
+	bgimg: 'images/abstract-pixel-seamless-pattern-of-gray-vector-10316938.jpg',
   picimg: 'images/rasmalai.webp',
   sdescrip: 'indian sweet dish',
   lineimg: 'images/minus.png',
@@ -43,6 +46,7 @@ const featureCard = [{
 },
 {
   title: 'Biryani',
+	bgimg: 'images/abstract-pixel-seamless-pattern-of-gray-vector-10316938.jpg',
   picimg: 'images/biryani.jpg',
   sdescrip: 'famous indian main dish',
   lineimg: 'images/minus.png',
@@ -52,6 +56,7 @@ const featureCard = [{
 },
 {
   title: 'Rasmalai',
+	bgimg: 'images/abstract-pixel-seamless-pattern-of-gray-vector-10316938.jpg',
   picimg: 'images/rasmalai.webp',
   sdescrip: 'indian sweet dish',
   lineimg: 'images/minus.png',
@@ -61,6 +66,7 @@ const featureCard = [{
 },
 {
   title: 'Biryani',
+	bgimg: 'images/abstract-pixel-seamless-pattern-of-gray-vector-10316938.jpg',
   picimg: 'images/biryani.jpg',
   sdescrip: 'famous indian main dish',
   lineimg: 'images/minus.png',
@@ -74,6 +80,7 @@ const cards = document.querySelector('.featurecard');
 featureCard.forEach((card) => {
   cards.innerHTML += `
   <div class="block1 c-card">
+	<img src="${card.bgimg}" alt="snaphot" class="b-img">
   <img src="${card.picimg}" alt="snaphot" class="p-img">
   <div>
     <h2>${card.title}</h2>
