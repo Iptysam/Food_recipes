@@ -496,6 +496,7 @@ a.a-home,
 
   .logofooter {
     width: 10%;
+    margin-bottom: 50px;
   }
 
   .abt-logo {
@@ -528,9 +529,5 @@ a.a-home,
 
   .logo_ri {
     margin-left: 30%;
-  }
-
-  .logofooter {
-    margin-bottom: 50px;
   }
 }
