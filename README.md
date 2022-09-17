@@ -6,6 +6,8 @@ To built this project you need to create files which mainly are index.html and s
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
 A separate about page to be built from the menu tag
 
+## video [loom] (https://www.loom.com/share/19799b4a5e17438ba84172ed80d0cb4c) link 
+
 ## :hammer: Built With
 
 - HTML/CSS/Java script
