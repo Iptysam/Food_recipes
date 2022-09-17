@@ -12,7 +12,7 @@ A separate about page to be built from the menu tag
 - FIGMA GIT GITHUB
 - VISUAL STUDIO CODE
 
-## [live demo]()
+## [live demo]( https://iptysam.github.io/Food_recipes/)
 
 
 ## :blue_book: Learning Objectives
