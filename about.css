@@ -258,7 +258,7 @@ h3 {
 .foodimg li span {
   display: block;
   font-size: 1.5rem;
-	color: #fff;
+  color: #fff;
 }
 
 .Mypartners {
@@ -326,7 +326,7 @@ h3 {
   color: #272a31;
   font-weight: 300;
   font-size: 15px;
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .Logo {
@@ -346,7 +346,7 @@ a.a-home,
 }
 
 @media only screen and (min-width: 768px) {
-	/* for desktop version */
+  /* for desktop version */
 
   .hamburger,
   .recipe_btn,
@@ -360,135 +360,135 @@ a.a-home,
   }
 
   a {
-	  text-decoration: none;
+    text-decoration: none;
   }
 
   li {
-	  list-style: none;
+    list-style: none;
   }
 
   .nav-title {
-	  display: flex;
-	  background: #272a31;
-	  justify-content: flex-end;
+    display: flex;
+    background: #272a31;
+    justify-content: flex-end;
   }
 
   .navlist {
-	  display: flex;
+    display: flex;
   }
 
   .navlist a {
-	  margin-right: 10px;
-	  font-family: 'Poppins', sans-serif;
-	  font-style: normal;
-	  font-weight: 500;
-	  font-size: 15px;
-	  line-height: 20px;
-	  color: #344563;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
   }
 
   .navlist img {
-	  margin-right: 10px;
+    margin-right: 10px;
   }
 
   .nav-bar {
-	  display: flex;
-	  background: #fff;
-	  justify-content: space-between;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
   }
 
   .logoicon {
-	  width: 5%;
-	  margin-top: 3px;
+    width: 5%;
+    margin-top: 3px;
   }
 
   .navitems {
-	  display: flex;
-	  margin-left: 20%;
-	  margin-top: 10px;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10px;
   }
 
   .navitems a {
-	  margin-right: 40px;
-	  font-family: 'Lato', sans-serif;
-	  font-weight: 900;
-	  font-size: 15px;
-	  line-height: 20px;
-	  color: #272a3171;
+    margin-right: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #272a3171;
   }
 
   a.a-abt {
-	  color: #ec5242;
+    color: #ec5242;
   }
 
   .linkbox {
-	  border: 2px solid #ec5242;
-	  width: 10%;
-	  height: 10%;
-	  padding-top: 4px;
-	  padding-bottom: 7px;
-	  margin-top: 10px;
-	  margin-right: 20px;
+    border: 2px solid #ec5242;
+    width: 10%;
+    height: 10%;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    margin-top: 10px;
+    margin-right: 20px;
   }
 
   .linkbox a {
-	  font-family: 'Lato', sans-serif;
-	  font-weight: 900;
-	  font-size: 15px;
-	  line-height: 20px;
-	  color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ec5242;
   }
 
   .info-page {
-	  display: flex;
-	  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 
   .abt-title {
-	  margin-top: 0;
-	  margin-left: 25%;
+    margin-top: 0;
+    margin-left: 25%;
   }
 
   .des-border {
-	  width: 40%;
-	  margin-left: 35%;
+    width: 40%;
+    margin-left: 35%;
   }
 
   .abt-contact {
-	  margin-left: 35%;
-	  margin-top: 40px;
+    margin-left: 35%;
+    margin-top: 40px;
   }
 
   .info-page a {
-	  font-size: 15px;
-	  margin-left: 42%;
+    font-size: 15px;
+    margin-left: 42%;
   }
 
   .line1 {
-	  margin-left: 47%;
-	  margin-top: -23px;
-	  width: 5%;
+    margin-left: 47%;
+    margin-top: -23px;
+    width: 5%;
   }
 
   .brands {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr 1fr;
-	  margin-left: 13%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 13%;
   }
 
   .brand_names1 {
-	  margin-left: 50%;
+    margin-left: 50%;
   }
 
   .logo-text {
-	  margin-left: 35%;
-	}
+    margin-left: 35%;
+  }
 
-	.logo-p {
-		margin-left: 20%;
-		}
+  .logo-p {
+    margin-left: 20%;
+    }
 
-	.logofooter {
-		width: 10%;
-	}
+  .logofooter {
+  	width: 10%;
+  }
 }
