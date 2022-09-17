@@ -624,11 +624,6 @@ button.morebtn {
     font-size: 20px;
   }
 
-  .Mypartners {
-    display: flex;
-    flex-direction: column;
-    background: #272a31;
-  }
   
   .partners {
     color:#fff;
