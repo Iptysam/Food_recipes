@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 html {
@@ -23,7 +23,7 @@ h3 {
   font-family: 'Lato', sans-serif;
 }
 
- header .header {
+header .header {
   display: flex;
   align-items: baseline;
   flex-direction: column;
@@ -174,7 +174,7 @@ h3 {
 
 .container {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   margin-top: -10px;
 }
 

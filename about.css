@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Noto+Sans+JP:wght@300&family=Raleway:wght@900&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 p,
 h1,
 h2,
 h3 {
-	font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .menubtn.active {
@@ -44,12 +44,12 @@ h3 {
 }
 
 .close_btn {
-	color: white;
-	cursor: pointer;
-	margin-left: 88%;
-	margin-top: 10%;
-	border: none;
-	background: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 88%;
+  margin-top: 10%;
+  border: none;
+  background: none;
 }
 
 .close_btn img:hover {
@@ -83,9 +83,9 @@ h3 {
 }
 
 .header_bg {
-	background-image: url('images/white-painted-wall-texture-background.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
+  background-image: url('images/white-painted-wall-texture-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hamburger {
@@ -93,129 +93,129 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   cursor: pointer;
-	position: absolute;
-	top: 20px;
-	left: 10px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 
 .bar {
-	display: flex;
-	justify-content: flex-end;
-	width: 45px;
-	height: 10px;
-	margin-top: 5px;
-	border-radius: 2px;
-	background-color: #272a3194;
+  display: flex;
+  justify-content: flex-end;
+  width: 45px;
+  height: 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+  background-color: #272a3194;
 }
 
 .abt-hello {
-	font-family: 'Lato', sans-serif;
-	font-size: 30px;
-	font-weight: 500;
-	color: #ec5242;
-	margin-left: 10%;
-	margin-top: 30%;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ec5242;
+  margin-left: 10%;
+  margin-top: 30%;
 }
 
 .abt-title {
-	font-family: 'cocogoose_letterpressregular', sans-serif;
-	font-size: 40px;
-	font-weight: 900;
-	color: #ec5242;
-	margin-top: 10px;
-	margin-left: 10px;
+  font-family: 'cocogoose_letterpressregular', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #ec5242;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .des-border {
-	border: 1px solid #fff;
-	background: #fff;
-	width: 90%;
-	margin-top: 10px;
-	margin-left: 10px;
+  border: 1px solid #fff;
+  background: #fff;
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .abt-descrip {
-	color: rgb(85, 83, 83);
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 15px;
+  color: rgb(85, 83, 83);
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 .abt-contact {
-	color: rgb(85, 83, 83);
-	font-family: 'Lato', sans-serif;
-	font-size: 15px;
-	font-weight: 700;
-	width: 75%;
-	margin-top: 10px;
-	margin-left: 20px;
+  color: rgb(85, 83, 83);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  width: 75%;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .info-page a {
-	color: #272a31;
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 15px;
-	margin-left: 30px;
-	margin-bottom: 100px;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-bottom: 100px;
 }
 
 .abt-logo {
-	color: #272a31;
-	font-family: 'Lato', sans-serif;
-	font-size: 25px;
-	font-weight: 700;
-	display: flex;
-	justify-content: center;
-	margin-top: 40px;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .line {
-	margin-left: 47%;
-	margin-top: -20px;
-	width: 5%;
+  margin-left: 47%;
+  margin-top: -20px;
+  width: 5%;
 }
 
 .logo-info {
-	color: rgba(85, 83, 83, 0.781);
-	font-weight: 700;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	margin-top: 15px;
+  color: rgba(85, 83, 83, 0.781);
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
 
 .Logoimg {
-	margin-left: 40%;
-	width: 20%;
+  margin-left: 40%;
+  width: 20%;
 }
 
 .logo-text {
-	font-family: 'Lato', sans-serif;
-	color: #272a31;
-	font-size: 25px;
-	font-weight: 700;
-	margin-left: 16%;
-	margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 16%;
+  margin-top: 10px;
 }
 
 .logo-p {
-	font-family: 'Lato', sans-serif;
-	color: rgba(85, 83, 83, 0.781);
-	font-weight: 700;
-	font-size: 18px;
-	margin-left: 5%;
-	margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  color: rgba(85, 83, 83, 0.781);
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-top: 10px;
 }
 
 .foodimg {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 1rem;
-	margin-left: 40px;
-	margin-top: 10px;
-	margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 40px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .foodimg li {
@@ -223,7 +223,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-	margin-left: -50px;
+  margin-left: -50px;
   width: 75vw;
   height: 35vw;
   box-shadow: inset -100vw -100vh #ec534280;
@@ -235,7 +235,7 @@ h3 {
 
 .foodimg li:first-child {
   background-image: url("images/choccake.jpg");
-	background-size: cover;
+  background-size: cover;
 }
 
 .foodimg li:last-child {
@@ -262,70 +262,70 @@ h3 {
 }
 
 .Mypartners {
-	display: flex;
-	flex-direction: column;
-	background: #272a31;
+  display: flex;
+  flex-direction: column;
+  background: #272a31;
 }
 
 .partners {
-	color: #fff;
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 25px;
-	margin-top: -2px;
-	display: flex;
-	justify-content: center;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: -2px;
+  display: flex;
+  justify-content: center;
 }
 
 .line1 {
-	margin-left: 47%;
-	margin-top: -10px;
-	width: 5%;
+  margin-left: 47%;
+  margin-top: -10px;
+  width: 5%;
 }
 
 .brands {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	margin-left: 5%;
-	margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 5%;
+  margin-top: 10px;
 }
 
 .brand_names {
-	color: #ccdafa5e;
-	font-weight: 700;
-	font-size: 30px;
-	font-family: 'Noto Sans JP', sans-serif;
+  color: #ccdafa5e;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .brand_names1 {
-	color: #ccdafa5e;
-	font-weight: 300;
-	font-size: 30px;
-	font-family: 'Lato', sans-serif;
-	margin-left: 2%;
+  color: #ccdafa5e;
+  font-weight: 300;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  margin-left: 2%;
 }
 
 .brand_names2 {
-	color: #ccdafa5e;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 900;
+  color: #ccdafa5e;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
 }
 
 .logo_ri {
-	background: #fff;
-	display: flex;
+  background: #fff;
+  display: flex;
 }
 
 .logofooter {
-	width: 20%;
-	margin-top: 10px;
-	margin-left: 80px;
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 80px;
 }
 
 .rights {
-	color: #272a31;
-	font-weight: 300;
-	font-size: 15px;
+  color: #272a31;
+  font-weight: 300;
+  font-size: 15px;
 	margin-top: 40px;
 }
 
@@ -348,148 +348,147 @@ a.a-home,
 @media only screen and (min-width: 768px) {
 	/* for desktop version */
 
-	.hamburger,
-	.recipe_btn,
-	button.morebtn,
-	.abt-hello,
-	.menu-item,
-	.menubtn,
-	.close_btn,
-	.nav-links {
-		display: none;
+  .hamburger,
+  .recipe_btn,
+  button.morebtn,
+  .abt-hello,
+  .menu-item,
+  .menubtn,
+  .close_btn,
+  .nav-links {
+    display: none;
+  }
+
+  a {
+	  text-decoration: none;
+  }
+
+  li {
+	  list-style: none;
+  }
+
+  .nav-title {
+	  display: flex;
+	  background: #272a31;
+	  justify-content: flex-end;
+  }
+
+  .navlist {
+	  display: flex;
+  }
+
+  .navlist a {
+	  margin-right: 10px;
+	  font-family: 'Poppins', sans-serif;
+	  font-style: normal;
+	  font-weight: 500;
+	  font-size: 15px;
+	  line-height: 20px;
+	  color: #344563;
+  }
+
+  .navlist img {
+	  margin-right: 10px;
+  }
+
+  .nav-bar {
+	  display: flex;
+	  background: #fff;
+	  justify-content: space-between;
+  }
+
+  .logoicon {
+	  width: 5%;
+	  margin-top: 3px;
+  }
+
+  .navitems {
+	  display: flex;
+	  margin-left: 20%;
+	  margin-top: 10px;
+  }
+
+  .navitems a {
+	  margin-right: 40px;
+	  font-family: 'Lato', sans-serif;
+	  font-weight: 900;
+	  font-size: 15px;
+	  line-height: 20px;
+	  color: #272a3171;
+  }
+
+  a.a-abt {
+	  color: #ec5242;
+  }
+
+  .linkbox {
+	  border: 2px solid #ec5242;
+	  width: 10%;
+	  height: 10%;
+	  padding-top: 4px;
+	  padding-bottom: 7px;
+	  margin-top: 10px;
+	  margin-right: 20px;
+  }
+
+  .linkbox a {
+	  font-family: 'Lato', sans-serif;
+	  font-weight: 900;
+	  font-size: 15px;
+	  line-height: 20px;
+	  color: #ec5242;
+  }
+
+  .info-page {
+	  display: flex;
+	  flex-direction: column;
+  }
+
+  .abt-title {
+	  margin-top: 0;
+	  margin-left: 25%;
+  }
+
+  .des-border {
+	  width: 40%;
+	  margin-left: 35%;
+  }
+
+  .abt-contact {
+	  margin-left: 35%;
+	  margin-top: 40px;
+  }
+
+  .info-page a {
+	  font-size: 15px;
+	  margin-left: 42%;
+  }
+
+  .line1 {
+	  margin-left: 47%;
+	  margin-top: -23px;
+	  width: 5%;
+  }
+
+  .brands {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+	  margin-left: 13%;
+  }
+
+  .brand_names1 {
+	  margin-left: 50%;
+  }
+
+  .logo-text {
+	  margin-left: 35%;
 	}
 
-	a {
-		text-decoration: none;
-	}
-
-	li {
-		list-style: none;
-	}
-
-	.nav-title {
-		display: flex;
-		background: #272a31;
-		justify-content: flex-end;
-	}
-
-	.navlist {
-		display: flex;
-	}
-
-	.navlist a {
-		margin-right: 10px;
-		font-family: 'Poppins', sans-serif;
-		font-style: normal;
-		font-weight: 500;
-		font-size: 15px;
-		line-height: 20px;
-		color: #344563;
-	}
-
-	.navlist img {
-		margin-right: 10px;
-	}
-
-	.nav-bar {
-		display: flex;
-		background: #fff;
-		justify-content: space-between;
-	}
-
-	.logoicon {
-		width: 5%;
-		margin-top: 3px;
-	}
-
-	.navitems {
-		display: flex;
+	.logo-p {
 		margin-left: 20%;
-		margin-top: 10px;
-	}
-
-	.navitems a {
-		margin-right: 40px;
-		font-family: 'Lato', sans-serif;
-		font-weight: 900;
-		font-size: 15px;
-		line-height: 20px;
-		color: #272a3171;
-	}
-
-	a.a-abt {
-		color: #ec5242;
-	}
-
-	.linkbox {
-		border: 2px solid #ec5242;
-		width: 10%;
-		height: 10%;
-		padding-top: 4px;
-		padding-bottom: 7px;
-		margin-top: 10px;
-		margin-right: 20px;
-	}
-
-	.linkbox a {
-		font-family: 'Lato', sans-serif;
-		font-weight: 900;
-		font-size: 15px;
-		line-height: 20px;
-		color: #ec5242; 
-	}
-
-	
-	.info-page {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.abt-title {
-		margin-top: 0;
-		margin-left: 25%;
-	}
-
-	.des-border {
-		width: 40%;
-		margin-left: 35%;
-	}
-
-	.abt-contact {
-		margin-left: 35%;
-		margin-top: 40px;
-	}
-
-	.info-page a {
-		font-size: 15px;
-		margin-left: 42%;
-	}
-
-	.line1 {
-		margin-left: 47%;
-		margin-top: -23px;
-		width: 5%;
-	}
-
-	.brands {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		margin-left: 13%;
-	}
-
-	.brand_names1 {
-		margin-left: 50%;
-	}
-
-	.logo-text {
-	margin-left: 35%;
-}
-
-.logo-p {
-	margin-left: 20%;
-}
+		}
 
 	.logofooter {
 		width: 10%;
-	}	
+	}
 }
