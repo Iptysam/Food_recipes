@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Noto+Sans+JP:wght@300&family=Raleway:wght@900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+html {
+  margin: 0;
+}
+
+li {
+  text-align: match-parent;
+  list-style: none;
+}
+
+
+p,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+ header .header {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5%;
+  cursor: pointer;
+}
+  
+.bar {
+  display: flex;
+  justify-content: flex-end;
+  width: 25px;
+  height: 3px;
+  margin-top: 5px;
+  background-color: #7f8cff;
+}
+
+.menu {
+	background-color: hsla(234, 100%, 50%, 0.595);
+  display: none;
+  flex-direction: column;
+  padding: 5% 40px 20px 28px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -25px;
+  bottom: 10px;
+  z-index: 3;
+  backdrop-filter: blur(10px);
+}
+
+.active {
+	display: flex;
+}
+
+.close_btn {
+  color: white;
+  cursor: pointer;
+  margin-left: 88%;
+	margin-top: 10%;
+	border: none;
+	background: none;
+}
+
+.close_btn img:hover {
+  color: #6070ff;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 2px;
+  margin-top: 35px;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+
+  /* Neutrals/N600 */
+  color: #fff;
+}
+
+.head-page {
+  background-image: url('images/white-painted-wall-texture-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.info-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.Greetings {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: #ec5242;
+  margin-left: 4%;
+  margin-top: 17%;
+}
+
+.title {
+	font-family: 'cocogoose_letterpressregular', sans-serif;
+	font-weight: 900;
+	color: #ec5242;
+	margin-left: 4%;
+  margin-top: -12px;   
+}
+
+.description {
+	color: #272a31;
+	font-family: 'Lato', sans-serif;
+	font-size: px;
+	font-weight: 400;
+	margin-left: 4%;
+}
+
+.date {
+	color: rgb(85, 83, 83);
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	font-weight: 900;
+	margin-left: 4%;
+}
+
+.tag {
+	color: #272a31;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	margin-left: 4%;
+  margin-bottom: 105px;
+
+}
+
+.main {
+	background-image: url('images/180.jpg');
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipes {
+	color: rgb(85, 83, 83);
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.container {
+  display: flex;
+	flex-direction: column;
+  margin-top: -10px;
+
+}
+.recipe-block {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+	margin: 10px;
+	padding: 20px;
+}
+
+.category {
+	color: #272a31;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	margin-left:9%;
+  margin-top: 3%;
+}
+
+.recipe-text {
+	margin-left: 4%;
+  margin-top: 3%;
+}
+
+button.recipe_btn {
+  padding: 20px 55px;
+  width: fit-content;
+  border: none;
+  background: #ec5242;
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.recipe_btn {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
+  transition: 200ms all ease-in-out;
+  color: #fff;
+}
+
+.recipe_btn:hover {
+  background: none;
+}
+
+.recipe_btn:active {
+  background: #727ddf;
+  box-shadow: 5px 5px blue;
+}
+
+.img {
+	width: 68px;
+	height: 25px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3%;
+}
+
+.main-page a {
+  display: none;
+}
+
+.frecipe {
+	color: rgb(85, 83, 83);
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
+
+.featured {
+  background: #fff;
+  margin-top: px;
+  display: grid;
+}
+
+.c-card h2 {
+  margin-top: 0;
+  margin-left: 8%;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.c-card p {
+  margin-left: 8%;
+  font-family: 'Lato', sans-serif;
+}
+
+.short {
+  margin-top: -15px;
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.l-img {
+  margin-top: -60px;
+  margin-left: 10%;
+  padding: 0;
+}
+
+.long {
+  color: #272a31;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.c-card {
+  margin: 0px;
+}
+
+.block1 {
+  flex-direction: row;
+  display: flex;
+  background: #fff;
+  border-radius: 4%;
+
+}
+
+.featurecard {
+  display: grid;
+  padding-top: 19px;
+}
+
+.line {
+	margin-left: 47%;
+	margin-top: -39px;
+	width: 5%;
+}
+
+.p-img {
+	width: 40%;
+	height: 40%;
+}
+
+button.morebtn {
+  display: flex;
+  padding: 0.1px 120px 0 130px;
+  border-radius: 1px;
+  border: 1px solid;
+  background: #fff;
+  margin-bottom: 100px;
+}
+
+.morebtn p {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  transition: 200ms all ease-in-out;
+  color: #272a31;
+}
+
+.morebtn:hover {
+  background: none;
+}
+
+.morebtn:active {
+  background: #727ddf;
+  box-shadow: 5px 5px blue;
+}
+
+.arrow {
+  margin-top: 24px;
+  width: 15%;
+  margin-left: 5px;
+}
+
+.Mypartners {
+	display: flex;
+	flex-direction: column;
+	background: #272a31;
+}
+
+.partners {
+	color:#fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	margin-top: -2px;
+	display: flex;
+	justify-content: center;
+}
+
+.line1{
+	margin-left: 47%;
+	margin-top: -40px;
+	width: 5%;
+
+}
+
+.brands {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 5%;
+}
+
+.brand_names {
+	color: #ccdafa5e;
+	font-weight: 700;
+	font-size: 30px;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.brand_names1 {
+	color: #ccdafa5e;
+	font-weight: 300;
+	font-size: 30px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 4%;
+}
+
+.brand_names2 {
+	color: #ccdafa5e;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+}
+
+.logo_ri {
+	background: #fff;
+	display: flex;
+}
+
+.logofooter {
+	width: 20%;
+	margin-top: 10px;
+	margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.rights {
+	color: #272a31;
+	font-weight: 300px;
+	font-size: 15px;
+	margin-top: 40px;
+}
+
+.nav-title,
+.navlist,
+.nav-bar {
+  display: none;
+}
+
+@media only screen and (min-width: 768px){
+  /* for desktop version */
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    text-align: match-parent;
+    list-style: none;
+  }
+
+  .hamburger,
+  .recipe_btn,
+  button.morebtn {
+    display: none;
+  }
+
+  .nav-title {
+    display: flex;
+    background: #272a31;
+    justify-content: flex-end;
+  }
+
+  .navlist  {
+    display: flex;
+  }
+
+  .navlist a {
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .navlist img {
+    margin-right: 10px;
+  }
+
+  .nav-bar {
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+  }
+
+  .Logo {
+    width: 10%;
+    margin-top: 3px;
+  }
+  
+  .navitems {
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .navitems a {
+    margin-right: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #272a3171;
+  }
+
+  a.a-abt {
+    color: #ec5242;
+  }
+
+  .links {
+    border: 2px solid #ec5242;
+    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-right: 4px;
+    width: 10%;
+    height:10%;
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+
+  .links a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ec5242;
+    margin-right: 20px;
+  }
+
+  .Greetings {
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 62px;
+    margin-left: 90px;
+  }
+
+  .title {
+    font-weight: 900;
+    font-size: 70px;
+    color: #ec5242;
+    text-shadow: 2px 2px 4px red;
+    margin-left: 90px;
+    margin-top: -12px;   
+  }
+  
+  .description {
+    color: rgba(114, 113, 113, 0.89);
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: -20px;
+    width: 70%;
+  }
+  
+  .date_tag {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .date {
+    color: rgb(85, 83, 83);
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-left: 90px;
+  }
+  
+  .tag {
+    color: rgb(85, 83, 83);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-left: 90px;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .recipe-block {
+    width: 15%;
+    height: 10%;
+    flex-direction: column;
+  }
+
+  .img {
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .main-page {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    font-size: 25px;
+  }
+
+  .main-page a {
+    color: rgba(87, 84, 84, 0.877);
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin-left: 40%;
+    margin-top: 3%;
+    margin-bottom: 80px;
+  }
+
+  .recipes {
+    font-size: 30px;
+  }
+
+  .frecipe {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .line {
+    margin-top: -50px;
+    margin-left: 430px;
+    width: 5%;
+  }
+
+  .featurecard {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .p-img {
+    width: 25%;
+  }
+
+  .recipe-text {
+    font-size: 20px;
+  }
+
+  .Mypartners {
+    display: flex;
+    flex-direction: column;
+    background: #272a31;
+  }
+  
+  .partners {
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .line1{
+    margin-left: 47%;
+    margin-top: -40px;
+    width: 5%;
+  }
+
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 13%;
+  }
+
+  .brand_names1 {
+    margin-left: 50%;
+  }
+
+  .rights {
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top: 80px;
+  }
+}
