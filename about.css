@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Noto+Sans+JP:wght@300&family=Raleway:wght@900&display=swap');
 
-html {
+* {
 	margin: 0;
-  border: 1px solid red;
+	padding: 0;
+	border: 1px solid red;
 }
 
-body {
-	margin: 0;
+html,body {
+	overflow-x: hidden;
 }
+
 
 a {
 	text-decoration: none;
@@ -21,19 +23,12 @@ p,h1,h2,h3 {
 	font-family: 'Lato', sans-serif;
 }
 
-.active {
+.menubtn.active {
   display: flex;
-}
-
-header.header {
-  display: flex;
-  align-items: baseline;
-  flex-direction: column;
-	margin-top: -10px;
 }
 
 .menubtn {
-	background-color: hsla(234, 100%, 50%, 0.595);
+  background-color: hsla(347, 100%, 50%, 0.507);
   display: none;
   flex-direction: column;
   padding: 5% 40px 20px 28px;
@@ -85,13 +80,27 @@ header.header {
   color: #fff;
 }
 
+
+.abt_heading {
+  border: 1px solid #272a31;
+}
+
+.header_bg {
+	background-image: url('images/white-painted-wall-texture-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 .hamburger {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 5%;
-  margin-top: 40px;
+  /* margin-left: 5%; */
+  /* margin-top: 40px; */
   cursor: pointer;
+	position: absolute;
+	top: 20px;
+	left: 10px;
 }
   
 .bar {
@@ -100,31 +109,8 @@ header.header {
   width: 45px;
   height: 10px;
   margin-top: 5px;
-	border-radius: 2px;
+  border-radius: 2px;
   background-color: #272a3194;
-}
-
-.headpage {
-	background: #fff;
-	width: 100%;
-}
-
-.head-page {
-  background-image: url('images/white-painted-wall-texture-background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.AboutPage {
-	display: flex;
-	flex-direction: column;
-}
-  
-.abt-bg {
-	background-image: url('images/white-painted-wall-texture-background.jpg');
-	background-position: 100% 100%;
-	background-size: cover;
-	margin-top: 0;
 }
 
 .abt-hello{
@@ -132,8 +118,8 @@ header.header {
 	font-size: 30px;
 	font-weight: 500;
 	color: #ec5242;
-	margin-left: 18%;
-	margin-top: 15%;
+	margin-left: 10%;
+	margin-top: 30%;
 }
 
 .abt-title {
@@ -141,16 +127,16 @@ header.header {
 	font-size: 40px;
 	font-weight: 900;
 	color: #ec5242;
-	margin-left: 2%;
-	margin-top: -20px;   
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 .des-border {
 	border: 1px solid #fff;
 	background: #fff;
 	width: 90%;
-	margin-left: 4%;
-	margin-top: -20px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 
 .abt-descrip {
@@ -158,7 +144,6 @@ header.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 15px;
-	margin-left: 1%;
 }
 
 .abt-contact {
@@ -167,7 +152,8 @@ header.header {
 	font-size:15px;
 	font-weight: 700;
 	width: 75%;
-	margin-left: 9%;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
 .info-page a {
@@ -175,7 +161,8 @@ header.header {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-size: 15px;
-	margin-left: 15%;
+	margin-left: 30px;
+	margin-bottom: 100px;
 }
 
 .abt-logo {
@@ -204,7 +191,6 @@ header.header {
 }
 
 .main-about {
-	margin-top: -25px;
 }
 
 .Logoimg {
@@ -347,13 +333,18 @@ header.header {
 	margin-top: 40px;
 }
 
+
 .nav-title,
 .navlist,
 .nav-bar,
 .navitems,
-.a-abt,
+.Logo,
+.icon
 .Logoicon,
-.links {
+.links,
+.nav-bar,
+a.a-home,
+.header {
   display: none;
 }
 
@@ -410,14 +401,15 @@ header.header {
 			justify-content: space-between;
 		}
 	
-		.Logo {
-			width: 10%;
+		.logoicon {
+			width: 5%;
 			margin-top: 3px;
 		}
 		
 		.navitems {
 			display: flex;
 			margin-left: 20%;
+			margin-top: 10px;
 		}
 	
 		.navitems a {
@@ -429,7 +421,7 @@ header.header {
 			color: #272a3171;
 		}
 
-		a.a-home {
+		a.a-abt {
 			color: #ec5242;
 		}
 
@@ -476,18 +468,7 @@ header.header {
 			font-size: 15px;
       margin-left: 42%;
 		}
-		
-		.nav-bar img {
-			margin-bottom: 10px;
-			margin-top: 10px;
-			margin-left: 20px;
-			width: 5%;
-		}
-
-		.Logo {
-			width: 100%;
-		}
-
+	
 		.logo-text {
 			margin-left: 35%;
 		}
