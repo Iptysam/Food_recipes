@@ -331,6 +331,7 @@ h3 {
 
 .Logo {
   width: 100%;
+  border: 1px solid #272a3127;
 }
 
 .nav-title,
@@ -437,6 +438,7 @@ a.a-home,
     font-size: 15px;
     line-height: 20px;
     color: #ec5242;
+    margin-left: 24px;
   }
 
   .info-page {
@@ -446,12 +448,12 @@ a.a-home,
 
   .abt-title {
     margin-top: 0;
-    margin-left: 25%;
+    margin-left: 30%;
   }
 
   .des-border {
     width: 40%;
-    margin-left: 35%;
+    margin-left: 30%;
   }
 
   .abt-contact {
@@ -461,7 +463,7 @@ a.a-home,
 
   .info-page a {
     font-size: 15px;
-    margin-left: 42%;
+    margin-left: 40%;
   }
 
   .line1 {
@@ -481,14 +483,54 @@ a.a-home,
   }
 
   .logo-text {
-    margin-left: 35%;
+    font-size: 20px;
+    margin-left: 42%;
+    margin-top: 30px;
   }
 
   .logo-p {
-    margin-left: 20%;
+    margin-left: 35%;
+    margin-top: 20px;
+    font-size: 12px;
   }
 
   .logofooter {
     width: 10%;
+  }
+
+  .abt-logo {
+    font-size: 25px;
+  }
+
+  .logo-info {
+    margin-top: -10px;
+    font-size: 15px;
+  }
+
+  .Logoimg {
+    width: 10%;
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .foodimg {
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: 50px;
+    margin-left: 20%;
+  }
+
+  .foodimg li {
+    width: 30vw;
+    height: 15vw;
+  }
+
+  .logo_ri {
+    margin-left: 30%;
+  }
+
+  .logofooter {
+    margin-bottom: 50px;
   }
 }
