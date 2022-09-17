@@ -72,14 +72,14 @@ const feature_Card = [{
 
 const cards = document.querySelector('.featurecard');
 feature_Card.forEach((card) => {
-	cards.innerHTML += `
-	<div class="block1 c-card">
-	<img src="${card.picimg}" alt="snaphot" class="p-img">
-	<div>
-		<h2>${card.title}</h2>
+  cards.innerHTML += `
+  <div class="block1 c-card">
+  <img src="${card.picimg}" alt="snaphot" class="p-img">
+  <div>
+    <h2>${card.title}</h2>
     <p class="short">${card.sdescrip}</p>
-		<img src="${card.lineimg}" alt="line" class="l-img">
-		<p class="long">${card.ldescrip}</p>
-	</div> 
+    <img src="${card.lineimg}" alt="line" class="l-img">
+    <p class="long">${card.ldescrip}</p>
+  </div> 
 </div>`;
 });
