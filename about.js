@@ -6,8 +6,8 @@ const closeBtn = document.querySelector('.close_btn');
 function open() {
   hamburger.classList.toggle('active');
   Menu.classList.toggle('active');
-  }
-  
+}
+
 hamburger.addEventListener('click', open);
 closeBtn.addEventListener('click', open);
 navlinks.forEach((link) => {
