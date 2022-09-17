@@ -156,16 +156,14 @@ header .header {
 }
 
 .main {
-  background-image: url('images/180.jpg');
-  background-position: 100% 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
+  background-image: url('images/main-pattern_bg.png');
+  background-color: rgba(22, 22, 39, 0.932);
+  overflow-x: auto;
+  padding: 2rem 0;
 }
 
 .recipes {
-  color: rgb(85, 83, 83);
+  color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   display: flex;
@@ -173,32 +171,51 @@ header .header {
   justify-content: center;
 }
 
+.line2 {
+  position: absolute;
+  top: 90%;
+  margin-left: 48%;
+  width: 4.5%;
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
-  margin-top: -10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 1.125rem;
+  padding: 2.5rem 0.875rem;
+  justify-items: center;
+}
+
+.recipe-block:hover {
+  outline: 2px solid #d3d3d3;
 }
 
 .recipe-block {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  margin: 10px;
-  padding: 20px;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 0.875rem;
+  background-color: rgb(128 128 128 / 20%);
+  cursor: pointer;
+  transition: outline 0.15s ease-in-out;
 }
 
 .category {
-  color: #272a31;
+  color: #ec5242;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-left: 9%;
   margin-top: 3%;
+  min-width: 100px;
 }
 
 .recipe-text {
   margin-left: 4%;
   margin-top: 3%;
+  flex: 3;
+  color: #fff;
 }
 
 button.recipe_btn {
@@ -246,7 +263,7 @@ button.recipe_btn {
   font-size: 20px;
   display: flex;
   justify-content: center;
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .featured {
@@ -441,7 +458,6 @@ button.morebtn {
   }
 
   .hamburger,
-  .recipe_btn,
   button.morebtn {
     display: none;
   }
@@ -571,16 +587,13 @@ button.morebtn {
   }
 
   .container {
-    flex-direction: row;
+    grid-template-columns: repeat(auto-fit, 200px);
+    column-gap: 1.125rem;
     justify-content: center;
-    position: absolute;
-    top: 110%;
-    left: 23%;
+    margin-top: 5%;
   }
 
   .recipe-block {
-    width: 17%;
-    height: 25%;
     flex-direction: column;
   }
 
@@ -594,7 +607,6 @@ button.morebtn {
     flex-direction: column;
     background: none;
     font-size: 25px;
-    margin-bottom: 400px;
   }
 
   .recipes {
@@ -604,6 +616,19 @@ button.morebtn {
     left: 45%;
   }
 
+  .line2 {
+    position: absolute;
+    top: 101%;
+    margin-left: 48%;
+    width: 2.5%;
+  }
+
+  button.recipe_btn {
+    background: none;
+    text-decoration: underline;
+    margin-left: 43%;
+  }
+
   .frecipe {
     margin-top: 15px;
     font-size: 30px;
@@ -611,7 +636,7 @@ button.morebtn {
 
   .line {
     position: absolute;
-    top: 162%;
+    top: 175%;
     margin-left: 48%;
     width: 2.5%;
   }
