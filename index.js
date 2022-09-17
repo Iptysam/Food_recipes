@@ -65,8 +65,8 @@ const feature_Card = [{
 	sdescrip: 'famous indian main dish',
 	lineimg: 'images/minus.png',
 	ldescrip: 'Mostly a festival food especially in Eid holiday.',
-	liveLink: 'https://iptysam.github.io/The_Portfolio/',
-	class: 'block2',
+  liveLink: 'https://iptysam.github.io/The_Portfolio/',
+  class: 'block2',
 },
 ];
 
